@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="50.591351">
+    <testcase classname="Create new account in facbook" name="To Click create new account button then fill details" time="9.485509">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.CreateAcc.toFillTheMobileNo(CreateAcc.java:53)&#13;&#10;&#9;at ✽.To fill the mobile no(C:/Users/Dell/eclipse-workspace/MavenCucumber/src/test/resources/Fecbook/CreateAcc.feature:14)&#13;&#10;">
+            <![CDATA[When To execute the facebook url............................................passed
+And To click the crreate new account button.................................passed
+And To fill the first name..................................................passed
+And To fill the mobile no...................................................failed
+And To Fill the new password................................................skipped
+And To click submit button..................................................skipped
+Then To close the given application.........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.CreateAcc.toFillTheMobileNo(CreateAcc.java:53)
+	at ✽.To fill the mobile no(C:/Users/Dell/eclipse-workspace/MavenCucumber/src/test/resources/Fecbook/CreateAcc.feature:14)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To login facebook applicetion" name="To impliment valied username and valied password" time="7.927413">
+        <system-out>
+            <![CDATA[When To launch application by using url.....................................passed
+And To pass the valied username on email textbox............................passed
+And To pass the valid password on password textbox..........................passed
+And To click login button...................................................passed
+Then To close application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To login facebook applicetion" name="To validate the positive and negative combination of login" time="8.366225">
+        <system-out>
+            <![CDATA[When User has to hit the facebook url.......................................passed
+And User  has to pass the positive "abc@gmail.com" in email field...........passed
+And User has to pass the negative "12345678" in email field.................passed
+And User has to click login button..........................................passed
+Then close url..............................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To login facebook applicetion" name="To validate the positive and negative combination of login 2" time="7.344676">
+        <system-out>
+            <![CDATA[When User has to hit the facebook url.......................................passed
+And User  has to pass the positive "efg@gmail.com" in email field...........passed
+And User has to pass the negative "Lion@123" in email field.................passed
+And User has to click login button..........................................passed
+Then close url..............................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To login facebook applicetion" name="To validate the positive and negative combination of login 3" time="7.640907">
+        <system-out>
+            <![CDATA[When User has to hit the facebook url.......................................passed
+And User  has to pass the positive "mno@gmail.com" in email field...........passed
+And User has to pass the negative "in@#$friend" in email field..............passed
+And User has to click login button..........................................passed
+Then close url..............................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To login facebook applicetion" name="To validate the positive and negative combination of login 4" time="6.961639">
+        <system-out>
+            <![CDATA[When User has to hit the facebook url.......................................passed
+And User  has to pass the positive "stu@gmail.com" in email field...........passed
+And User has to pass the negative "strong@321" in email field...............passed
+And User has to click login button..........................................passed
+Then close url..............................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To login instagram username and password" name="To validate the vaild username and valid password" time="2.864982">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given To execute the browser................................................undefined
+When To hit the requirement url.............................................undefined
+And To validate the vaild username on user feild............................undefined
+And To validate the vaild password on user feild............................undefined
+And To click the submit button..............................................undefined
+Then To close the  browser..................................................undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>
